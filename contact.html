@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>S & N </title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+       
+    </head>
+<body>
+    <div class="main-container bg-dark-black">
+      
+             <!----Navbar-->
+            <header>
+                <nav class="navbar">
+                    <div class="logo">
+                        <img src="Images/logo.jpg" alt="">
+                    </div>
+                    <ul id="navlist" class="navlist">
+        <li><a href="index.html" class="navlinks">Home</a><li>
+        <li><a href="perfumes.html" class="navlinks">Perfumes</a></li>
+        <li><a href="body-spray.html" class="navlinks">Body Spray</a></li>
+        <li><a href="deodrant.html" class="navlinks">Deodorant</a></li>
+        <li><a href="contact.html" class="navlinks">Contact Us</a></li>
+                    </ul>
+
+                    <!-- Cart Icon -->
+                    <div class="cart" id="cart-icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span id="cart-count">0</span>
+                    </div>
+                    <div id="cart-section" class="cart-section">
+                        <h2>Your Cart</h2>
+                        <div id="cart-items"></div>
+                        <button id="close-cart">Close</button>
+                    </div>
+
+                    <div class="hamburger" id="hamburger">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                </nav>
+            </header>
+
+            <!----Main section-->
+            
+            <div class="container">
+                <h2>About Our Perfume Brand</h2>
+                <p>We offer a wide range of luxury perfumes that are crafted with premium ingredients to provide long-lasting fragrances. Our mission is to bring elegance and sophistication to your everyday life.</p>
+                
+                <h2>Contact Us</h2>
+                <p>If you have any queries or need assistance, feel free to reach out to us through the form below.</p>
+                
+                <div class="contact-form">
+                    <form action="#" method="post">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        
+            
+        <footer class="section bg-dark-black ">
+                <p class="footer-txt">Copyright & Copy;2025 All rights are reserved by Sana Ghulam Muhammad</p>
+            </footer>
+    </div>
+
+            <style>
+
+                body {
+            background-color: black;
+            color: white;
+            
+            margin-left: 35px;
+            margin-right: 35px;
+        }
+                .container {
+                    width: 80%;
+                    margin: auto;
+                    padding: 20px;
+                }
+                .contact-form {
+                    background: rgba(255, 255, 255, 0.1);
+                    padding: 20px;
+                    border-radius: 10px;
+                }
+                .contact-form input, .contact-form textarea {
+                    width: 100%;
+                    padding: 10px;
+                    margin: 10px 0;
+                    border: none;
+                    border-radius: 5px;
+                }
+                .contact-form button {
+                    background: white;
+                    color: black;
+                    padding: 10px 20px;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                }
+                .contact-form button:hover {
+                    background: gray;
+                }
+                footer {
+                    text-align: center;
+                    padding: 20px;
+                    background: rgba(255, 255, 255, 0.1);
+                }
+                </style>
+                <script src="main.js"></script>
+        </body>
+        </html>
